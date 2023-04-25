@@ -20,7 +20,7 @@ jobs:
           java-version: '11'
           distribution: 'adopt'
           server-id: github
-          settings-path: settings.xml
+#          settings-path: settings.xml
 
       - name: Build with Maven
         run: mvn --settings settings.xml clean install
